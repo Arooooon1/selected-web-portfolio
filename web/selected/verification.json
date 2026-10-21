@@ -1,0 +1,41 @@
+{
+  "testedAt": "2026-10-21T19:11:31.531Z",
+  "browser": "Microsoft Edge / isolated Playwright context",
+  "externalNetwork": "blocked; core functionality verified offline",
+  "viewports": [
+    "1440x1000",
+    "390x844"
+  ],
+  "errors": [],
+  "results": [
+    "RIFTLINE: admin create/edit/draft/delete/persistence passed",
+    "RIFTLINE: variants/cart/quantity/checkout/stock/order status passed",
+    "RIFTLINE: roster tabs, match tabs, ICS download and enquiries passed",
+    "RIFTLINE: 17 routes at 1440px; images and overflow passed",
+    "RIFTLINE: 17 routes at 390px; images and overflow passed",
+    "RIFTLINE: normal-motion observer and reduced-motion fallback passed",
+    "OBJECTORY: admin create/edit/draft/delete/persistence passed",
+    "OBJECTORY: variants/cart/quantity/checkout/stock/order status passed",
+    "OBJECTORY: 20 routes at 1440px; images and overflow passed",
+    "OBJECTORY: 20 routes at 390px; images and overflow passed",
+    "OBJECTORY: normal-motion observer and reduced-motion fallback passed",
+    "STILLFRAME: admin create/edit/draft/delete/persistence passed",
+    "STILLFRAME: filters, shortlist/export, calendar, estimate, overlapping dates, status and cancellation passed",
+    "STILLFRAME: 16 routes at 1440px; images and overflow passed",
+    "STILLFRAME: 16 routes at 390px; images and overflow passed",
+    "STILLFRAME: normal-motion observer and reduced-motion fallback passed"
+  ],
+  "layerValidation": {
+    "checksPerSite": 11,
+    "renderedHomepageSnapshots": 3,
+    "note": "Scroll animation uses requestAnimationFrame and IntersectionObserver; ScrollTrigger is not required.",
+    "failures": 0
+  },
+  "visualInspection": {
+    "desktopHomepages": 3,
+    "dashboards": 3,
+    "fullPages": 3,
+    "mobileHomepages": 3,
+    "collection": 1
+  }
+}
