@@ -1,5 +1,5 @@
 {
-  "testedAt": "2026-10-23T20:25:52.840Z",
+  "testedAt": "2026-10-24T04:41:20.578Z",
   "browser": "Microsoft Edge / isolated Playwright context",
   "offline": true,
   "htmlSha256": "bf86d9b5e239953b2536550e2dd3891c5958cc03af2ec912ef65218906b3cea6",
@@ -25,7 +25,7 @@
     "360px layout fits viewport",
     "360px main-work badge stays visible",
     "featured project opens the packaged SAVAGE website",
-    "packaged local Three.js initializes LIGHT LAB",
+    "packaged LIGHT LAB initializes local Three.js, photographic studio and scanned leather",
     "packaged SYNC control selects all three devices",
     "no JavaScript or console errors",
     "no failed local resources or network dependencies"

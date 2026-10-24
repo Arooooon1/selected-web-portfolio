@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+await import('./build-studio.mjs');
 const source=path.dirname(fileURLToPath(import.meta.url));
 const site=path.join(source,'..','14. SAVAGE - Gaming Gear');
 const read=file=>fs.readFileSync(path.join(source,file),'utf8');

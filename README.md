@@ -18,6 +18,8 @@
 
 В **LIGHT LAB** можно вращать объёмную клавиатуру, мышь и наушники, рассматривать их со всех сторон, менять цвет, яркость, скорость и пять режимов подсветки. SYNC объединяет устройства в одну сцену. Световой профиль сохраняется в браузере.
 
+Обновлённая версия включает заново собранные мышь и наушники, более подробную клавиатуру, студийные отражения и сканированные текстуры кожи. Все материалы находятся внутри папки сайта и работают без интернета. [Описание доработки 3D](web/14.%20SAVAGE%20-%20Gaming%20Gear/design/3D-REFINEMENT.md).
+
 ![SAVAGE — главная страница](web/14.%20SAVAGE%20-%20Gaming%20Gear/preview-desktop.png)
 
 ![SAVAGE — световая лаборатория](web/14.%20SAVAGE%20-%20Gaming%20Gear/preview-light-lab.png)
@@ -70,9 +72,9 @@ node web/savage-source/build.mjs
 node web/portfolio-source/build.mjs
 ```
 
-[Проверка подборки](web/selected/showcase-verification.json) фиксирует порядок работ, ссылки, превью, переключение вкладок и адаптивность. [Отчёт SAVAGE](web/14.%20SAVAGE%20-%20Gaming%20Gear/verification.json) содержит 117 функциональных проверок и последующие проверки доработки. [Исходный отчёт трёх сайтов](web/selected/verification.json) сохранён с датой своей проверки.
+[Проверка подборки](web/selected/showcase-verification.json) фиксирует порядок работ, ссылки, превью, переключение вкладок, адаптивность и загрузку материалов LIGHT LAB. [Отчёт SAVAGE](web/14.%20SAVAGE%20-%20Gaming%20Gear/verification.json) содержит 117 функциональных проверок и последующие проверки доработки. [Проверка обновлённой 3D-сцены](web/14.%20SAVAGE%20-%20Gaming%20Gear/visual-verification.json) фиксирует загрузку студии и текстур, вращение, разрешение сцены и мобильный вид. [Исходный отчёт трёх сайтов](web/selected/verification.json) сохранён с датой своей проверки.
 
-Для повторного прогона SAVAGE: установи Microsoft Edge и `npm install --no-save playwright`, затем выполни `node web/savage-source/verify.cjs`. Проверка витрины: `node web/selected/verify.cjs`.
+Для повторного прогона SAVAGE: установи Microsoft Edge и `npm install --no-save playwright`, затем выполни `node web/savage-source/verify.cjs`. Проверка 3D-сцены: `node web/savage-source/verify-visuals.cjs`. Проверка витрины: `node web/selected/verify.cjs`.
 
 ## Формат демонстрации
 

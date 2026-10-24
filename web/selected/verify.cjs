@@ -55,7 +55,7 @@ const {pathToFileURL,fileURLToPath}=require('node:url');
     check('featured project opens the packaged SAVAGE website',await page.evaluate(()=>SAVAGE_CATALOG.products.length===24));
     await page.locator('#lab').scrollIntoViewIfNeeded();
     await page.waitForFunction(()=>window.SavageLab&&SavageLab.ready,{},{timeout:25000});
-    check('packaged local Three.js initializes LIGHT LAB',await page.evaluate(()=>SavageLab.ready&&THREE.REVISION==='160'));
+    check('packaged LIGHT LAB initializes local Three.js, photographic studio and scanned leather',await page.evaluate(()=>SavageLab.ready&&THREE.REVISION==='160'&&document.querySelector('#lab-stage').dataset.studio==='photographic-hdri'&&document.querySelector('#lab-stage').dataset.material==='scanned-leather'));
     await page.locator('[data-device="sync"]').click();
     check('packaged SYNC control selects all three devices',await page.evaluate(()=>SavageLab.settings.device==='sync'&&SavageLab.diagnostics.visibleModels.length===3));
     check('no JavaScript or console errors',errors.length===0);

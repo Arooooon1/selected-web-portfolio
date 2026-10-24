@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T19:53:24.876Z",
+  "timestamp": "2026-10-23T21:14:52.638Z",
   "checks": 117,
   "passed": [
     "24 original model entries",
@@ -133,11 +133,11 @@
   },
   "threeVersion": "0.160.1",
   "offline": true,
-  "htmlSha256": "6719b990b57acd40bdb852c65abe6c0633de41cce23b3a32b2ab92f9b41e2fdc",
-  "mainSuiteHtmlSha256": "39b30d347006d8650b48d978c30bef20ebd8f8ac94194071a167466dea33f182",
+  "htmlSha256": "5d6c6453fbf63e1ae87ba7fb79b4ba900410533e6f761777e73981674c2cf295",
+  "mainSuiteHtmlSha256": "8d1db04b6f89464051de4abd4c5465307d17b106c0a93a935007ebecd991aa8e",
   "postSuiteChecks": {
-    "timestamp": "2026-10-23T20:01:05.573Z",
-    "reason": "Keep the comparison dock inside catalog; no other application behavior changed.",
+    "timestamp": "2026-10-24T04:31:15.425Z",
+    "reason": "After the main suite, closed a small headset hinge gap and the mouse rear end cap. The current geometry is checked in visual-verification.json; all application behavior is unchanged.",
     "passed": [
       "comparison dock appears inside catalog",
       "comparison dock does not obscure hero",
@@ -150,6 +150,14 @@
   "structureAudit": {
     "passed": 11,
     "failed": 0,
-    "notes": "Canonical class order in DOM audit; native scroll timelines do not use ScrollTrigger."
+    "notes": "Current rendered DOM checked; native scrolling does not require ScrollTrigger."
+  },
+  "visualReview": {
+    "report": "visual-verification.json",
+    "checks": 11,
+    "captures": "screenshots/quality-*.png",
+    "video": "light-lab-preview.mp4",
+    "videoDecodePassed": true,
+    "exactCatalogReplica": false
   }
 }

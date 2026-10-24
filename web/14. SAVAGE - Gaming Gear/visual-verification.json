@@ -1,0 +1,22 @@
+{
+  "testedAt": "2026-10-24T04:31:00.941Z",
+  "browser": "Microsoft Edge / isolated Playwright context",
+  "htmlSha256": "5d6c6453fbf63e1ae87ba7fb79b4ba900410533e6f761777e73981674c2cf295",
+  "checks": 11,
+  "passed": [
+    "offline photographic studio and scanned leather load",
+    "desktop canvas renders above CSS resolution",
+    "keyboard changes rendered view when rotated",
+    "mouse changes rendered view when rotated",
+    "headset changes rendered view when rotated",
+    "night scene and spectrum remain operable",
+    "keyboard mobile scene has no horizontal overflow",
+    "mouse mobile scene has no horizontal overflow",
+    "headset mobile scene has no horizontal overflow",
+    "no shader or JavaScript errors",
+    "no failed local files or external dependencies"
+  ],
+  "errors": [],
+  "resourceFailures": [],
+  "note": "Image quality judged from the real captured views; functional checks do not establish photorealism."
+}
